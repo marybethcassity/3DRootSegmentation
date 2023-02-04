@@ -1,5 +1,5 @@
 # 3DRootSegmentation
-dataPrep.ipynb takes sequential CT images and masks, stacks them, and slices the stack along the x,y,and z axis. 
+dataPrep.ipynb takes sequential CT images and masks, stacks them, and slices the stack along the x, y, and z axis. 
 
 tile.ipynn randomly tiles images and rotates the tiles.
 
