@@ -8,4 +8,3 @@ instance segmentation, then saves these predictions to a json file in coco forma
 
 Open3DDBSCANmetrics3view.ipynb can be used to rebuild the predictions into a 3d numpy array and filter the predictions using Open3D's implementation of DBSCAN with automated parameter tuning. You can calculate accuracy metrics or view a point cloud using Open3D from any view combination. 
 
-pandas.ipynb was used to generate plots and visuals. Note, your data will be different than mine, but hopefully you can still get some ideas about formatting. :)
