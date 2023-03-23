@@ -1,7 +1,9 @@
 # 3DRootSegmentation
 dataPrep.ipynb takes sequential CT images and masks, stacks them, and slices the stack along the x, y, and z axis. 
 
-tile.ipynn randomly tiles images and randomly rotates the tiles.
+tile.ipynb randomly tiles images and randomly rotates the tiles.
+
+Mask R-CNN_trainmodels.ipynb is from the Detectron2 Tutorial (https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5) + a grib search for hyper parameters + backbone.
 
 predict.ipynb can be used to predict on images for 
 instance segmentation, then saves these predictions to a json file in coco format. Note, if a segmentation prediction only consists of 2 points, the second point will be copied and appended to make a 3rd point. Alternatively, this segmentation can just be removed. Either way, a segmentation consisting of only 2 points must be removed or edited.
